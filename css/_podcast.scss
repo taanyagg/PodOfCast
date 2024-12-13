@@ -1,0 +1,36 @@
+.pod_img {
+    background-image: url("../images/cover3.png");
+    background-size: cover;
+    background-position: center center;
+    width: 470px;
+    height: 470px;
+    border-radius: 8px;
+    box-shadow: 12px 12px #81ADC8;
+}
+.pod_title {
+    color: #81ADC8;
+    margin: 360px auto 16px 13px;
+}
+.ep_tag {
+    font-family: "Montserrat Alternates Medium";
+    font-size: 12px;
+    color: #4D4D4D;
+    border: 1px solid #4D4D4D;
+    border-radius: 4px;
+    width: max-content;
+}
+.p_ep {
+    font-family: "Montserrat Alternates Bold";
+    font-size: 16px;
+    color: #CD4631;
+}
+.img_host {
+    padding: 0;
+    width: 36px;
+    height: 36px;
+}
+.img_redvec {
+    position: relative;
+    left: 80%;
+    width: 17%;
+}

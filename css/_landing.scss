@@ -1,0 +1,109 @@
+.img_swirl {
+    position: relative;
+    left: -7%;
+    width: 90%;
+}
+.img_sparkles {
+    position: relative;
+    right: -35%;
+    top: 30%;
+    width: 40%;
+}
+.cover_1 {
+    background-image: url("../images/cover1.png");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 12px;
+    margin: auto;
+}
+.cover_2 {
+    background-image: url("../images/cover2.png");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 12px;
+    margin: auto;
+}
+.cover_3 {
+    background-image: url("../images/cover3.png");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 12px;
+    margin: auto;
+}
+.cover_4 {
+    background-image: url("../images/cover4.png");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 12px;
+    margin: auto;
+}
+.cover_5 {
+    background-image: url("../images/cover5.png");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 12px;
+    margin: auto;
+}
+.quote {
+    background-color: #F7EDE8;
+    border-radius: 8px;
+}
+.img_blackvec {
+    position: relative;
+    left: 23%;
+}
+.ep_tag {
+    font-family: "Montserrat Alternates Medium";
+    font-size: 12px;
+    color: #4D4D4D;
+    border: 1px solid #4D4D4D;
+    border-radius: 4px;
+    width: max-content;
+}
+.episode {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 49%;
+}
+.p_ep {
+    font-family: "Montserrat Alternates Bold";
+    font-size: 16px;
+    color: #CD4631;
+}
+.r_link {
+    font-family: "Montserrat Alternates Bold";
+    font-size: 23px;
+    color: #CD4631;
+    text-decoration: none;
+}
+.r_link:hover {
+    color: black;
+}
+.b_link {
+    font-family: "Montserrat Alternates Bold";
+    font-size: 23px;
+    color: black;
+    text-decoration: none;
+}
+.b_link:hover {
+    color: #CD4631;
+}
+.p_host {
+    font-family: "Montserrat Alternates Bold";
+    font-size: 12px;
+    color: #4D4D4D;
+    width: max-content;
+    margin-bottom: 0;
+    line-height: 250%;
+}

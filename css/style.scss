@@ -1,0 +1,341 @@
+@import "./landing";
+@import "./about";
+@import "./podcast";
+@import "./blog";
+@import "./price";
+@import "./intouch";
+
+@font-face {
+    font-family: "Montserrat Alternates Medium";
+    src: url("../font/MontserratAlternates-Medium.ttf");
+}
+@font-face {
+    font-family: "Montserrat Alternates Bold";
+    src: url("../font/MontserratAlternates-Bold.ttf")
+}
+
+h1 {
+    font-family: "Montserrat Alternates Bold";
+    font-size: 96px;
+}
+h2 {
+    font-family: "Montserrat Alternates Bold";
+    font-size: 59px;
+    color: black;
+}
+h3 {
+    font-family: "Montserrat Alternates Bold";
+    font-size: 37px;
+    color: black;
+}
+h4 {
+    font-family: "Montserrat Alternates Bold";
+    font-size: 23px;
+    color: black;
+}
+h5 {
+    font-family: "Montserrat Alternates Medium";
+    font-size: 16px;
+}
+h6 {
+    font-family: "Montserrat Alternates Medium";
+    font-size: 14px;
+}
+.bb {
+    background-color: #F7EDE8;
+}
+/*header*/
+.navbar {
+    background-color: #F7EDE8;
+}
+.nav-link {
+    font-family: "Montserrat Alternates Bold";
+    color: black;
+}
+.nav-link:hover {
+    color: #CD4631;
+}
+.dropdown-item {
+    font-family: "Montserrat Alternates Medium";
+    font-size: 14px;
+    color: black;
+}
+.dropdown-item:hover {
+    color: #CD4631;
+}
+.but1 {
+    font-family: "Montserrat Alternates Bold";
+    background-color: #F7EDE8;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+.but1:hover {
+    border-color: #CD4631;
+    color: #CD4631;
+}
+.but2 {
+    font-family: "Montserrat Alternates Bold";
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+    color: #F7EDE8;
+    text-align: center;
+}
+.but2:hover {
+    background-color: #CD4631;
+}
+.but3 {
+    font-family: "Montserrat Alternates Bold";
+    background-color: #F7EDE8;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+.but3:hover {
+    background-color: white;
+}
+hr {
+    color: #4D4D4D;
+    opacity: 1;
+}
+/*footer*/
+.foot_link {
+    font-family: "Montserrat Alternates Medium";
+    color: #CD4631;
+    text-decoration: none;
+}
+.foot_link:hover {
+    font-weight: 600;
+}
+
+
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 85px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 13px;
+    }
+    h6 {
+        font-size: 12px;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+    .but1 {
+        font-size: 14px;
+    }
+    .but2{
+        font-size: 14px;
+    }
+    .but3 {
+        font-size: 14px;
+    }
+    .p_ep {
+        font-size: 14px;
+    }
+    .foot_link {
+        font-size: 14px;
+    }
+    .img_blackvec {
+        height: 90px;
+        left: 32%;
+    }
+    .episode {
+        margin: auto;
+        width: max-content;
+    }
+    .p_host {
+        font-size: 10px;
+    }
+    .img_media {
+        height: 23px;
+    }
+    .img_redround {
+        left: -20%;
+    }
+    .img_bluescribble {
+        left: 68%;
+    }
+    .pod_img {
+        width: 300px;
+        height: 300px;
+    }
+    .pod_title {
+        margin: 200px auto 16px 10px;
+    }
+    .tarif_pop {
+        font-size: 12px;
+        width: 75px;
+        height: 43px;
+    }
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 63px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    h5 {
+        font-size: 12px;
+    }
+    h6 {
+        font-size: 11px;
+    }
+    .nav-link {
+        font-size: 11px;
+    }
+    .img_logo {
+        height: 65px;
+    }
+    .but1 {
+        font-size: 11px;
+    }
+    .but2{
+        font-size: 11px;
+    }
+    .but3 {
+        font-size: 11px;
+    }
+    .r_link {
+        font-size: 20px;
+    }
+    .b_link {
+        font-size: 20px;
+    }
+    .foot_link {
+        font-size: 12px;
+    }
+    .ep_tag {
+        font-size: 10px;
+    }
+    .img_blackvec {
+        height: 70px;
+        left: 30%;
+    }
+    .img_redround {
+        width: 45px;
+        left: -20%;
+    }
+    .pod_img {
+        width: 230px;
+        height: 230px;
+    }
+    .pod_title {
+        margin: 140px auto 16px 8px;
+    }
+    .tarif_pop {
+        font-size: 12px;
+        width: 120px;
+        height: 25px;
+    }
+    .form_label {
+        font-size: 10px;
+    }
+}
+@media(max-width: 376px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 12px;
+    }
+    h5 {
+        font-size: 10px;
+    }
+    h6 {
+        font-size: 7px;
+    }
+    .but1 {
+        font-size: 9px;
+    }
+    .but2{
+        font-size: 9px;
+    }
+    .img_logo {
+        height: 50px;
+    }
+    .p_ep {
+        font-size: 8px;
+        margin-bottom: 0;
+    }
+    .ep_tag {
+        font-size: 5px;
+    }
+    .r_link {
+        font-size: 9px;
+    }
+    .b_link {
+        font-size: 9px;
+    }
+    .img_host {
+        height: 15px;
+    }
+    .foot_link {
+        font-size: 9px;
+    }
+    .foot_icon {
+        height: 15px;
+    }
+    .img_media {
+        margin-top: 7%;
+        margin-bottom: 5%;
+        height: 20px;
+    }
+    .img_blackvec {
+        height: 50px;
+        left: 33%;
+    }
+    .img_ep {
+        height: 60px;
+    }
+    .p_host {
+        font-size: 6px;
+    }
+    .img_bluescribble {
+        height: 30px;
+        left: 90%;
+    }
+    .carousel-control-prev {
+        left: -30px;
+    }
+    .carousel-control-next {
+        right: -30px;
+    }
+    .pod_img {
+        width: 200px;
+        height: 200px;
+    }
+    .pod_title {
+        margin: 115px auto 16px 7px;
+    }
+    .form_label {
+        font-size: 7px;
+    }
+}
